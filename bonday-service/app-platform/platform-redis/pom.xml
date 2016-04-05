@@ -10,6 +10,10 @@
 
     <name>platform-redis</name>
     <description>Redis Spring Boot</description>
+    <properties>
+        <!-- The main class to start by executing java -jar -->
+        <start-class>com.bonday.service.PlatformRedisApplication</start-class>
+    </properties>
 
     <parent>
         <groupId>bonday.service</groupId>
@@ -21,8 +25,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-redis</artifactId>
         </dependency>
-
-
     </dependencies>
 
     <build>

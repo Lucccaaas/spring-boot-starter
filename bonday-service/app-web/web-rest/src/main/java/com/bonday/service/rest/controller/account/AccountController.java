@@ -20,7 +20,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
  * Created by yunge on 16/4/3.
  */
 @RestController
-@RequestMapping("/account")
+@RequestMapping("/accounts")
 public class AccountController extends BaseController {
     @Resource
     TokenService tokenService;

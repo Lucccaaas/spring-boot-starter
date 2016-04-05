@@ -13,6 +13,9 @@ spring:
                database: bonday
                minConnectionsPerHost: 30
                authenticationDatabase:
+    resources:
+       cache-period: -1
+
 server:
   context-path: /
   port: 8080

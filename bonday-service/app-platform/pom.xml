@@ -15,11 +15,11 @@
     <modules>
         <module>platform-token</module>
         <module>platform-dao</module>
-        <module>platform-redis</module>
-        <module>platform-solr</module>
-        <module>platform-elasticsearch</module>
-        <module>platform-jms</module>
-        <module>platform-mail</module>
+        <!--<module>platform-redis</module>-->
+        <!--<module>platform-solr</module>-->
+        <!--<module>platform-elasticsearch</module>-->
+        <!--<module>platform-jms</module>-->
+        <!--<module>platform-mail</module>-->
         <module>platform-facade</module>
     </modules>
 
