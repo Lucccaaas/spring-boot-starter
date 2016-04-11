@@ -47,7 +47,7 @@ public class AccountController extends BaseController {
     }
 
 
-    @RequestMapping(value = "/all1", method = GET)
+    @RequestMapping(value = "/all", method = GET)
     @ResponseBody
     ResponseEntity<Collection<User>> getAll(HttpServletRequest request, HttpServletResponse response) {
         Collection<User> users = userRepository.findAll();
